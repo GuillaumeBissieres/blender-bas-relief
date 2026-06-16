@@ -19,8 +19,9 @@ The Height Map Generator requires the following Python libraries:
 - `Pillow`
 - `numpy`
 
-Install them via pip before using the Height Map Generator feature.
-MiDaS model weights are downloaded automatically at first use (internet connection required).
+**These can be installed directly from the add-on preferences** — no terminal or manual pip commands needed. Go to **Edit** > **Preferences** > **Add-ons** > **Bas Relief** and click **Install All Dependencies**. Note that PyTorch is approximately 800 MB — a stable internet connection is required.
+
+MiDaS model weights are downloaded automatically at first use (internet connection required, not bundled).
 
 # Installation
 
@@ -31,6 +32,8 @@ Open Blender and go to **Edit** > **Preferences** > **Add-ons**.
 Click **Install**, select the ZIP file, and click **Install Add-on**.
 
 Enable the add-on by checking the corresponding box.
+
+Go to **Edit** > **Preferences** > **Add-ons** > **Bas Relief** and click **Install All Dependencies** before using the Height Map Generator.
 
 Access **Bas Relief** in the **N menu** (sidebar) under the **Bas Relief tab**.
 
@@ -72,6 +75,7 @@ If a height map with the same name already exists, a dialog appears with three o
 
 # Advanced Options
 
+- **One-click Dependency Installation** : All required libraries can be installed directly from the add-on preferences without any terminal or command line knowledge.
 - **Smart Auto Analysis** : Takes image resolution into account — small images get lower MiDaS resolution and more smoothing; large high-resolution images preserve more detail with less artificial boosting.
 - **Background Thread Generation** : MiDaS runs in a separate thread so Blender never freezes during AI inference.
 - **Shared Image Path** : The image selected via Import Image or Choose Image is shared between both workflows — no need to select it twice.
