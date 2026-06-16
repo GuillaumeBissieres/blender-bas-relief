@@ -46,6 +46,8 @@ Access **Bas Relief** in the **N menu** (sidebar) under the **Bas Relief tab**.
 
    <img width="313" height="91" alt="Capture d’écran 2026-06-16 230739" src="https://github.com/user-attachments/assets/beffe1d6-da5b-4be5-afa9-7dacaea5588c" />
    <img width="1538" height="861" alt="Capture d’écran 2026-06-16 231224" src="https://github.com/user-attachments/assets/12f54a0a-eba8-44fc-b3f0-cf8a3c868c81" />
+   <img width="1527" height="879" alt="bas_relief_img2" src="https://github.com/user-attachments/assets/8e68e077-47f5-4af1-bca6-2b1980775ef8" />
+
    <img width="1545" height="868" alt="bas_relief_img1" src="https://github.com/user-attachments/assets/2bdfc0cc-c7f8-46a4-8003-7d905dda7d36" />
 
 
