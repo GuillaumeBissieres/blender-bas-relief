@@ -106,6 +106,10 @@ The Height Map Generator uses MiDaS AI to estimate depth from a single image and
 
 ###
 
+<img width="1529" height="875" alt="bas_relief_img6" src="https://github.com/user-attachments/assets/43cc4136-8e5a-4f1e-9c70-825446093121" />
+
+###
+
 1. **Choose Image** : Select the source image (shared with the Bas Relief Import Image button — select once, use everywhere).
 2. **Auto Analyze** : Intelligently analyzes the image and automatically sets all controls to optimal values based on resolution, contrast, sharpness, dynamic range, texture density and background distribution. Also auto-sets the MiDaS inference resolution.
 <img width="301" height="67" alt="Capture d’écran 2026-06-16 223318" src="https://github.com/user-attachments/assets/8b890206-6151-451d-af7f-27714352debb" />
