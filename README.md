@@ -75,6 +75,9 @@ If a height map with the same name already exists, a dialog appears with three o
 - **Overwrite** : Replaces the existing file.
 - **Cancel** : Discards the generated result.
 
+  <img width="346" height="198" alt="Capture d’écran 2026-06-16 222208" src="https://github.com/user-attachments/assets/47bd6f99-a239-4c07-9610-7b5f27b5f2cf" />
+
+
 # Advanced Options
 
 - **One-click Dependency Installation** : All required libraries can be installed directly from the add-on preferences without any terminal or command line knowledge.
