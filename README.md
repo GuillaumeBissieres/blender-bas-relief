@@ -44,13 +44,18 @@ Access **Bas Relief** in the **N menu** (sidebar) under the **Bas Relief tab**.
 1. **Import Image** : Select the image you want to use as a displacement source.
 2. **Run Bas Relief** : Creates a subdivided plane with a Displace modifier automatically configured from your image. Adjust **Subdivision Cuts**, **Subsurf Levels** and **Displace Strength** in the Adjust Last Operation panel.
 3. **Create Texture** : Creates a new PBR material with an Image Texture node and assigns it to the active object.
-4. **Create Depth Map** : Sets up the compositor pipeline using the **Depth_Map_Comp_GN** node group, creates an orthographic camera and a Suzanne preview mesh for depth visualization. Click **Render** to produce the depth map output.
-5. **Render** : Renders the depth map using the configured compositor pipeline.
+4. **Create Depth Map** : Sets up the compositor pipeline using the **Depth_Map_Comp_GN** node group, creates an orthographic camera and a Suzanne preview mesh for depth visualization. Click **Render** to produce the depth map output.<img width="1265" height="703" alt="Capture d’écran 2026-06-16 224712" src="https://github.com/user-attachments/assets/92d89f03-3e5c-4e4b-b6af-d66199195a46" />
+
+5. **Render** : Renders the depth map using the configured compositor pipeline.<img width="1074" height="690" alt="Capture d’écran 2026-06-16 224841" src="https://github.com/user-attachments/assets/64b4606f-eac0-45f3-ac27-2358b3e9ed12" />
+
 6. **Save** : Saves the render result to disk.
 7. **Delete** : Removes the depth map setup (camera, preview mesh and compositor nodes) to start fresh.
 
 ### Display Settings
 After clicking **Create Depth Map**, two display options appear:
+
+<img width="310" height="63" alt="Capture d’écran 2026-06-16 224346" src="https://github.com/user-attachments/assets/a63af75a-6ae2-4f2b-b143-2cbf0a89cc85" />
+
 - **Display Device** : Set to `Display P3` for accurate color space.
 - **View Transform** : Set to `Raw` for unprocessed depth output.
 
@@ -60,7 +65,11 @@ The Height Map Generator uses MiDaS AI to estimate depth from a single image and
 
 1. **Choose Image** : Select the source image (shared with the Bas Relief Import Image button — select once, use everywhere).
 2. **Auto Analyze** : Intelligently analyzes the image and automatically sets all controls to optimal values based on resolution, contrast, sharpness, dynamic range, texture density and background distribution. Also auto-sets the MiDaS inference resolution.
+<img width="301" height="67" alt="Capture d’écran 2026-06-16 223318" src="https://github.com/user-attachments/assets/8b890206-6151-451d-af7f-27714352debb" />
+
 3. **Adjust Controls** if needed:
+<img width="304" height="154" alt="Capture d’écran 2026-06-16 223547" src="https://github.com/user-attachments/assets/d377da83-169a-492f-bcb3-5613166d0ddd" />
+
    - **Subject Offset** : Shifts the depth midpoint up or down to center the subject.
    - **Background Compression** : Flattens background depth relative to the subject.
    - **MiDaS Detail Strength** : Amplifies fine depth details from the AI prediction.
@@ -68,6 +77,9 @@ The Height Map Generator uses MiDaS AI to estimate depth from a single image and
    - **Face Volume Force** : Reinforces smooth rounded volume on organic surfaces.
 4. **Reset** : Resets all controls and resolution to default values.
 5. **Generate Height Map** : Runs MiDaS inference in a **background thread** — Blender stays fully responsive during generation. The result is saved next to the source image and automatically assigned to the HeightMap texture and Bas Relief plane.
+<img width="307" height="72" alt="Capture d’écran 2026-06-16 223947" src="https://github.com/user-attachments/assets/b027d125-d881-41b1-8ae4-8907eecd32c6" />
+
+<img width="301" height="60" alt="Capture d’écran 2026-06-16 222112" src="https://github.com/user-attachments/assets/965c6d11-2e4f-4878-a96b-7748f108bb24" />
 
 ### File Conflict
 If a height map with the same name already exists, a dialog appears with three options:
