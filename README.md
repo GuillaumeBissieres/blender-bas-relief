@@ -21,10 +21,9 @@ The Height Map Generator requires the following Python libraries:
 
 **These can be installed directly from the add-on preferences** — no terminal or manual pip commands needed. Go to **Edit** > **Preferences** > **Add-ons** > **Bas Relief** and click **Install All Dependencies**. Note that PyTorch is approximately 800 MB — a stable internet connection is required.
 
-<img width="957" height="588" alt="Capture d’écran 2026-06-16 213034" src="https://github.com/user-attachments/assets/38bcadb0-01df-4428-ba6e-b126692da063" />
-
-
 MiDaS model weights are downloaded automatically at first use (internet connection required, not bundled).
+
+<img width="957" height="588" alt="Capture d’écran 2026-06-16 213034" src="https://github.com/user-attachments/assets/38bcadb0-01df-4428-ba6e-b126692da063" />
 
 # Installation
 
