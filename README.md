@@ -96,6 +96,15 @@ After clicking **Create Depth Map**, two display options appear:
 
 The Height Map Generator uses MiDaS AI to estimate depth from a single image and produce an optimized height map ready for Bas Relief displacement.
 
+###
+
+<img width="1533" height="883" alt="bas_relief_img4" src="https://github.com/user-attachments/assets/5a0f5335-69a4-4e83-97b4-e073e35cae8d" />
+
+###
+
+
+
+
 1. **Choose Image** : Select the source image (shared with the Bas Relief Import Image button — select once, use everywhere).
 2. **Auto Analyze** : Intelligently analyzes the image and automatically sets all controls to optimal values based on resolution, contrast, sharpness, dynamic range, texture density and background distribution. Also auto-sets the MiDaS inference resolution.
 <img width="301" height="67" alt="Capture d’écran 2026-06-16 223318" src="https://github.com/user-attachments/assets/8b890206-6151-451d-af7f-27714352debb" />
