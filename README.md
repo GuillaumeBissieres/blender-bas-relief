@@ -44,7 +44,8 @@ Access **Bas Relief** in the **N menu** (sidebar) under the **Bas Relief tab**.
 1. **Import Image** : Select the image you want to use as a displacement source.
 2. **Run Bas Relief** : Creates a subdivided plane with a Displace modifier automatically configured from your image. Adjust **Subdivision Cuts**, **Subsurf Levels** and **Displace Strength** in the Adjust Last Operation panel.
 3. **Create Texture** : Creates a new PBR material with an Image Texture node and assigns it to the active object.
-4. **Create Depth Map** : Sets up the compositor pipeline using the **Depth_Map_Comp_GN** node group, creates an orthographic camera and a Suzanne preview mesh for depth visualization. Click **Render** to produce the depth map output.<img width="1265" height="703" alt="Capture d’écran 2026-06-16 224712" src="https://github.com/user-attachments/assets/92d89f03-3e5c-4e4b-b6af-d66199195a46" />
+4. **Create Depth Map** : Sets up the compositor pipeline using the **Depth_Map_Comp_GN** node group, creates an orthographic camera and a Suzanne preview mesh for depth visualization. Click **Render** to produce the depth map output.<img width="447" height="101" alt="Capture d’écran 2026-06-16 224453" src="https://github.com/user-attachments/assets/2536293f-72aa-4262-8926-d2915c9a1332" />
+   <img width="1265" height="703" alt="Capture d’écran 2026-06-16 224712" src="https://github.com/user-attachments/assets/92d89f03-3e5c-4e4b-b6af-d66199195a46" />
 
 5. **Render** : Renders the depth map using the configured compositor pipeline.<img width="1074" height="690" alt="Capture d’écran 2026-06-16 224841" src="https://github.com/user-attachments/assets/64b4606f-eac0-45f3-ac27-2358b3e9ed12" />
 
