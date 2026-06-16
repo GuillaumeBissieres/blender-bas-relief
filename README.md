@@ -46,6 +46,8 @@ Access **Bas Relief** in the **N menu** (sidebar) under the **Bas Relief tab**.
 
    <img width="313" height="91" alt="Capture d’écran 2026-06-16 230739" src="https://github.com/user-attachments/assets/beffe1d6-da5b-4be5-afa9-7dacaea5588c" />
    <img width="1538" height="861" alt="Capture d’écran 2026-06-16 231224" src="https://github.com/user-attachments/assets/12f54a0a-eba8-44fc-b3f0-cf8a3c868c81" />
+   <img width="1545" height="868" alt="bas_relief_img1" src="https://github.com/user-attachments/assets/2bdfc0cc-c7f8-46a4-8003-7d905dda7d36" />
+
 
 3. **Create Texture** : Creates a new PBR material with an Image Texture node and assigns it to the active object.
 4. **Create Depth Map** : Sets up the compositor pipeline using the **Depth_Map_Comp_GN** node group, creates an orthographic camera and a Suzanne preview mesh for depth visualization. Click **Render** to produce the depth map output.<img width="447" height="101" alt="Capture d’écran 2026-06-16 224453" src="https://github.com/user-attachments/assets/2536293f-72aa-4262-8926-d2915c9a1332" />
