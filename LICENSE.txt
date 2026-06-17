@@ -1,0 +1,54 @@
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
+
+Copyright (C) 2007 Free Software Foundation, Inc.
+<https://fsf.org/>
+
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
+
+----------------------------------------------------------------------
+
+This Blender add-on, "Height Map Generator (MiDaS – Bas Relief)",
+authored by Guillaume Bissieres, is distributed under the terms
+of the GNU General Public License as published by the Free Software
+Foundation; either version 3 of the License, or (at your option)
+any later version.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+----------------------------------------------------------------------
+
+THIRD-PARTY SOFTWARE NOTICE
+
+This add-on uses third-party open-source software:
+
+- MiDaS depth estimation model by Intel Intelligent Systems Lab
+  Licensed under the MIT License
+  https://github.com/isl-org/MiDaS
+
+- PyTorch by Meta Platforms, Inc.
+  Licensed under the BSD License
+  https://pytorch.org
+
+IMPORTANT:
+- This add-on does NOT bundle or redistribute any neural network weights.
+- MiDaS model weights are downloaded automatically at runtime via torch.hub.
+- All third-party software remains the property of its respective authors.
+
+----------------------------------------------------------------------
+
+AUTHOR
+
+Guillaume Bissieres

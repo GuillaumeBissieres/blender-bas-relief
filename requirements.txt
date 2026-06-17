@@ -1,0 +1,22 @@
+# ----------------------------------------
+# Height Map Generator (MiDaS – Bas Relief)
+# Requirements file
+# Version: 1.0.1
+# Author: Guillaume Bissieres
+# ----------------------------------------
+#
+# This addon relies on external Python libraries.
+# Blender uses its own Python, these may need
+# to be installed manually depending on your setup.
+#
+
+# Numerical processing
+numpy
+
+# Image processing
+opencv-python
+Pillow
+
+# Deep learning (MiDaS)
+torch
+torchvision

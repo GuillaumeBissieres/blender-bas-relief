@@ -1,0 +1,53 @@
+DISCLAIMER
+
+This software is provided "as is", without warranty of any kind, express or implied,
+including but not limited to the warranties of merchantability, fitness for a particular
+purpose, and noninfringement.
+
+In no event shall the author be liable for any claim, damages, or other liability, whether
+in an action of contract, tort, or otherwise, arising from, out of, or in connection with
+the software or the use or other dealings in the software.
+
+
+-----------------------------------------------------------------------
+LICENSE NOTICE
+-----------------------------------------------------------------------
+
+This add-on is free software distributed under the terms of the
+GNU General Public License (GPL), version 3 or later.
+
+See the LICENSE file for the full license text and terms.
+
+
+-----------------------------------------------------------------------
+THIRD-PARTY SOFTWARE
+-----------------------------------------------------------------------
+
+This add-on uses third-party technologies including:
+
+- MiDaS depth estimation model by Intel Intelligent Systems Lab
+  Licensed under the MIT License
+
+- PyTorch by Meta Platforms, Inc.
+  Licensed under the BSD License
+
+
+IMPORTANT:
+- The MiDaS model weights are not included or redistributed with this add-on.
+- They are downloaded automatically at runtime via torch.hub.
+- All third-party software remains the property of its respective authors.
+
+
+-----------------------------------------------------------------------
+AFFILIATION
+-----------------------------------------------------------------------
+
+This add-on is not affiliated with, endorsed by, or sponsored by
+Intel, Meta, or any other third-party entity.
+
+Use of this software is entirely at your own risk.
+
+
+Author:
+Guillaume Bissieres
+

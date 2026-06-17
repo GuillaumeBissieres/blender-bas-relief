@@ -1,0 +1,14 @@
+schema_version = "1.0.0"
+id = "bas_relief"
+version = "1.0.8"
+name = "Bas Relief"
+tagline = "Create Bas Relief and generate Height Maps in Blender"
+maintainer = "Guillaume Bissieres"
+type = "add-on"
+website = "https://bissieres.gumroad.com/l/BasRelief"
+tracker_url = "https://github.com/GuillaumeBissieres/blender-bas-relief/issues"
+tags = ["Mesh", "Render"]
+blender_version_min = "4.2.0"
+license = [
+"SPDX:GPL-3.0-or-later",
+]

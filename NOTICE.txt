@@ -1,0 +1,66 @@
+NOTICE
+
+Height Map Generator (MiDaS – Bas Relief)
+Blender Add-on
+
+Author:
+Guillaume Bissieres
+
+
+-----------------------------------------------------------------------
+GENERAL NOTICE
+-----------------------------------------------------------------------
+
+This add-on is an original work by Guillaume Bissieres.
+
+It provides a Blender-integrated workflow to generate height / depth maps
+from images using AI-based depth estimation.
+
+The add-on code itself is distributed under the GNU General Public License
+(GPL v3 or later). See the LICENSE file for full license terms.
+
+
+-----------------------------------------------------------------------
+THIRD-PARTY SOFTWARE
+-----------------------------------------------------------------------
+
+This add-on relies on the following third-party open-source projects:
+
+MiDaS – Depth Estimation
+© Intel Intelligent Systems Lab
+https://github.com/isl-org/MiDaS
+Licensed under the MIT License
+
+PyTorch
+© Meta Platforms, Inc.
+https://pytorch.org
+Licensed under the BSD License
+
+
+IMPORTANT:
+- This add-on does NOT bundle or redistribute any neural network weights.
+- MiDaS model weights are downloaded automatically at runtime via torch.hub.
+- All third-party software, models, and weights remain the property of their
+  respective authors.
+- Users are responsible for complying with the licenses of third-party
+  software when models are downloaded.
+
+
+-----------------------------------------------------------------------
+DISCLAIMER
+-----------------------------------------------------------------------
+
+This software is provided "as is", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose, and non-infringement.
+
+In no event shall the author be liable for any claim, damages, or other
+liability arising from the use of this software.
+
+
+-----------------------------------------------------------------------
+AFFILIATION
+-----------------------------------------------------------------------
+
+This add-on is not affiliated with, endorsed by, or sponsored by
+Intel, Meta, or any other third-party software provider.
