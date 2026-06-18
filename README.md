@@ -1,6 +1,7 @@
 An add-on to create Bas Relief and generate Height Maps in Blender
 
-<img width="1781" height="883" alt="bas_relief_img_1" src="https://github.com/user-attachments/assets/0ff5b192-3d84-41f3-a3da-4c086b03d355" />
+<img width="1781" height="883" alt="bas_relief_img_2" src="https://github.com/user-attachments/assets/3d4c3583-bbb6-42bb-9e4e-ea26cb6a0ff0" />
+
 
 
 #
